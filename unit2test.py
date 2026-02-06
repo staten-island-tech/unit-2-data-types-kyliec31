@@ -85,8 +85,9 @@ for i in range (1, int(number1 and number2*0.5) +1,):
     if number1 and number2 % i == 0:
         print(i)
 print(number1 and number2)
-list1 = print(values[number1])
-list2 = print(values[number2])
+value
+list1 = value[number1]
+list2 = value[number2]
 common = [element for element in list1 if element in list2]
 print(common)
 

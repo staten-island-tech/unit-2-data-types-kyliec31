@@ -61,10 +61,32 @@ if int(number) % 2 == 0:
         print("even")
 else:
         print("odd") """
+""" 
+service = input("Service? (bad, okay, good, or great?)")
+bill = float(input("Bill value: "))
+if service == "bad":
+    print("0% tip")
+elif service == "okay":
+    print("15% tip")
+elif service == "good":
+    print("20% tip")
+elif service == "great":
+    print("25% tip") """
 
-a = "0%, 15%, 20%, 25%"
-bill = a
-x = "bad, okay, good, great"
-service = x
-y = x.split(0)
-if x[0] == y[0]:
+""" number = int(input("Enter number - "))
+for i in range (1, int(number*0.5) +1,):
+    if number % i == 0:
+        print(i)
+print(number) """
+
+number1 = int(input("Enter number 1 - "))
+number2 = int(input("Enter number 2 - "))
+for i in range (1, int(number1 and number2*0.5) +1,):
+    if number1 and number2 % i == 0:
+        print(i)
+print(number1 and number2)
+list1 = print(values[number1])
+list2 = print(values[number2])
+common = [element for element in list1 if element in list2]
+print(common)
+

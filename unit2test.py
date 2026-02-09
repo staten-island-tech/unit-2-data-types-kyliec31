@@ -81,13 +81,15 @@ print(number) """
 
 number1 = int(input("Enter number 1 - "))
 number2 = int(input("Enter number 2 - "))
-for i in range (1, int(number1 and number2*0.5) +1,):
-    if number1 and number2 % i == 0:
+""" for i in range (1, int(number1 *0.5) +1,):
+    if number1 % i == 0:
         print(i)
-print(number1 and number2)
-value
-list1 = value[number1]
-list2 = value[number2]
-common = [element for element in list1 if element in list2]
-print(common)
-
+print(number1)
+for i in range (1, int(number2 *0.5) +1,):
+    if number2 % i == 0:
+        print(i)
+print(number2) """
+if int(number1) > 0:
+    for i in range(1, number1 +1):
+        if number1 and number2 % i == 0:
+            print(i)

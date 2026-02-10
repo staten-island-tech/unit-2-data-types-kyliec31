@@ -81,15 +81,13 @@ print(number) """
 
 number1 = int(input("Enter number 1 - "))
 number2 = int(input("Enter number 2 - "))
-""" for i in range (1, int(number1 *0.5) +1,):
-    if number1 % i == 0:
-        print(i)
-print(number1)
-for i in range (1, int(number2 *0.5) +1,):
-    if number2 % i == 0:
-        print(i)
-print(number2) """
 if int(number1) > 0:
     for i in range(1, number1 +1):
         if number1 and number2 % i == 0:
-            print(i)
+           number1 = number2
+           print(i)
+def gcf(number1,number2):
+    while number2:
+        number1, number2 = number2, number1 % number2
+        return (number1) 
+    print(i)

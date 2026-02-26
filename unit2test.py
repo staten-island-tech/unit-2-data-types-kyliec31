@@ -79,15 +79,15 @@ for i in range (1, int(number*0.5) +1,):
         print(i)
 print(number) """
 
+
+def gcf(number1,number2):
+    while number2 != 0:
+        number1, number2 = number2, number1 % number2
+    return number1
+
 number1 = int(input("Enter number 1 - "))
 number2 = int(input("Enter number 2 - "))
-if int(number1) > 0:
-    for i in range(1, number1 +1):
-        if number1 and number2 % i == 0:
-           number1 = number2
-           print(i)
-def gcf(number1,number2):
-    while number2:
-        number1, number2 = number2, number1 % number2
-        return (number1) 
-    print(i)
+
+print("GCF:", gcf(number1,number2))
+
+
